@@ -222,3 +222,30 @@ header {
   color: #666666; /* Light gray text for disabled */
   cursor: not-allowed;
 }
+
+
+/* Button Styles */
+.nav__actions button {
+  background-color: var(--primary-color-dark);
+  color: var(--white);
+  padding: 0.5rem 1rem;
+  border-radius: 5px;
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.3s;
+  margin-left: 0.5rem; /* Add space between buttons */
+}
+
+#dark-mode-toggle:hover,
+#reset-button:hover {
+  background-color: #000000; /* Black on hover */
+  color: var(--white); /* Keep text white */
+}
+
+#reset-button {
+  background-color: #f44336; /* Red color for Reset button */
+}
+
+#reset-button:hover {
+  background-color: #000000; /* Black on hover for consistency */
+}
