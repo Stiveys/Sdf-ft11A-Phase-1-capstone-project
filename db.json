@@ -5,7 +5,7 @@
         "name": "Tractor",
         "price_per_day": "$150",
         "available": true,
-        "image_url": "images/tractor.jpg"
+        "image_url": "images/Tractor.jpg"
       },
       {
         "id": 2,
@@ -19,7 +19,7 @@
         "name": "Plough",
         "price_per_day": "$50",
         "available": true,
-        "image_url": "images/plough.jpg"
+        "image_url": "images/Plough.jpg"
       },
       {
         "id": 4,
@@ -33,7 +33,7 @@
         "name": "Irrigation System",
         "price_per_day": "$80",
         "available": true,
-        "image_url": "images/irrigation.jpg"
+        "image_url": "images/Irrigation.jpg"
       }
     ]
   }
