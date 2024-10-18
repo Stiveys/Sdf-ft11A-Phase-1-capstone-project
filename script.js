@@ -109,3 +109,6 @@ function displayMachinery(machinery) {
     machineryList.appendChild(card);
   });
 }
+
+
+
