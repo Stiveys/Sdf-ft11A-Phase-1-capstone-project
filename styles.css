@@ -199,3 +199,26 @@ header {
   background-color: #333;
   color: var(--white);
 }
+
+/* Rent Button Styling */
+.rent-button {
+  background-color: var(--primary-color); /* Green */
+  color: var(--white); /* White text */
+  padding: 10px 20px;
+  font-size: 1rem;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+.rent-button:hover {
+  background-color: #000000; /* Black on hover */
+  color: var(--white); /* White text */
+}
+
+.rent-button:disabled {
+  background-color: #cccccc; /* Gray for disabled state */
+  color: #666666; /* Light gray text for disabled */
+  cursor: not-allowed;
+}
