@@ -1,0 +1,39 @@
+{
+    "machinery": [
+      {
+        "id": 1,
+        "name": "Tractor",
+        "price_per_day": "$150",
+        "available": true,
+        "image_url": "images/tractor.jpg"
+      },
+      {
+        "id": 2,
+        "name": "Combine Harvester",
+        "price_per_day": "$200",
+        "available": false,
+        "image_url": "images/Harvester.jpg"
+      },
+      {
+        "id": 3,
+        "name": "Plough",
+        "price_per_day": "$50",
+        "available": true,
+        "image_url": "images/plough.jpg"
+      },
+      {
+        "id": 4,
+        "name": "Seeder",
+        "price_per_day": "$120",
+        "available": true,
+        "image_url": "images/seeder.jpg"
+      },
+      {
+        "id": 5,
+        "name": "Irrigation System",
+        "price_per_day": "$80",
+        "available": true,
+        "image_url": "images/irrigation.jpg"
+      }
+    ]
+  }
